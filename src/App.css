@@ -107,3 +107,6 @@ section.pricing {
 .fa-li{
   margin-right: 10px;
 }
+.reduced-opacity {
+  opacity: 0.5; 
+}

@@ -14,7 +14,8 @@ function Message({details}) {
                     return <li><span className="fa-li">
                     {feature.available ? <FaCheck /> : <FaTimes />}
                   </span>
-                  {feature.name}</li>
+                  <span className={feature.available ? "" : "reduced-opacity"}>{feature.name}</span>
+                  </li>
                 })
               }
                 
