@@ -101,4 +101,9 @@ section.pricing {
     opacity: 1;
   }
 }
-
+.fa-ul{
+  list-style-type: none;
+}
+.fa-li{
+  margin-right: 10px;
+}
